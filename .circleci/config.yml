@@ -20,6 +20,3 @@ jobs:
 			. venv/bin/activate
 			make lint
 			
-			
-			
-			
