@@ -12,11 +12,10 @@ jobs:
             python3 -m venv env
             . venv/bin/activate
             make install
-            
-            
       - run:
           name: run lint
           command: |
+            python3 -m venv env
             . venv/bin/activate
             make lint
-            
+
